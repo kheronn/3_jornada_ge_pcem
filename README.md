@@ -7,7 +7,7 @@ Repositório de estudo criado no <u>grupo  de estudos</u> para a <b> 3ª Jornada
 <p align="center">
 <span align="center">
     <kbd>
-        <img src="https://github.com/kheronn.png?size=80" style="border-radius: 5px" alt="Website" height="340">
+        <img src="https://github.com/kheronn.png" style="border-radius: 5px" alt="Website" height="340">
     </kbd>
 </span>
 </p>
