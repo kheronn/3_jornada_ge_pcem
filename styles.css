@@ -1,4 +1,10 @@
+:root{
+    --cor-de-fundo: #F4EED;
+}
+
+
 body{
+    background: var(--cor-de-fundo);
     font-family: 'Roboto';
     display: flex;
     text-align: justify;
