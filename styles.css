@@ -1,19 +1,19 @@
-:root{
+:root {
     --cor-de-fundo: #F4EED;
     --cor-titulo: #999B84;
 }
 
 
-body{
+body {
     background: var(--cor-de-fundo);
     font-family: 'Roboto';
     display: flex;
     text-align: justify;
     font-size: 20px;
     flex-wrap: wrap;
+    padding: 2rem;
 }
 
-h1{
+h1 {
     color: var(--cor-titulo);
 }
-
