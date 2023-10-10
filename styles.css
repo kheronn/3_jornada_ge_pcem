@@ -1,5 +1,6 @@
 :root{
     --cor-de-fundo: #F4EED;
+    --cor-titulo: #999B84;
 }
 
 
@@ -10,5 +11,9 @@ body{
     text-align: justify;
     font-size: 20px;
     flex-wrap: wrap;
+}
+
+h1{
+    color: var(--cor-titulo);
 }
 
