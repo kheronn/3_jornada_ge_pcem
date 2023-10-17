@@ -1,11 +1,6 @@
-:root {
-    --cor-de-fundo: #F4EED;
-    --cor-titulo: #999B84;
-}
 
 
 body {
-    background: var(--cor-de-fundo);
     font-family: 'Roboto';
     display: flex;
     text-align: justify;
@@ -15,5 +10,5 @@ body {
 }
 
 h1 {
-    color: var(--cor-titulo);
+    color:#999B84;
 }
