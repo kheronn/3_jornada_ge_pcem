@@ -21,3 +21,8 @@ h1 {
     text-align: justify;
     color: white;
 }
+
+.imagem{
+    width: 200px;
+    border-radius: 20px;
+}
