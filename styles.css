@@ -12,3 +12,11 @@ body {
 h1 {
     color:#999B84;
 }
+
+#titulo_principal{
+    color:#4b88a2
+}
+
+.texto{
+    justify-content: center;
+}
