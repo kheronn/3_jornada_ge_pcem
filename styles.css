@@ -85,10 +85,3 @@ p {
 
 }
 
-@media (min-width:500px){
-    .container {
-       padding: 0.1rem;
-       margin: 0.1rem;
-    }
-    
-}
