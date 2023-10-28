@@ -31,7 +31,7 @@ p{
     "titulo titulo"
     "imagem descricao";
     grid-template-rows: auto auto;
-    grid-template-columns:minmax(auto-fil, 1fr) 1fr ;
+    grid-template-columns:minmax(auto, 1fr) 1fr ;
     gap: 0.8rem;
     padding: 6px 8px;
 }
