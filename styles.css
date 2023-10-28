@@ -47,6 +47,7 @@ p{
 .card__imagem{
     grid-area: imagem;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     padding: 8px;
     aspect-ratio: 1/1;
@@ -55,4 +56,5 @@ p{
 
 .card__descricao{
     grid-area: descricao;
+    margin: 0 6px;
 }
