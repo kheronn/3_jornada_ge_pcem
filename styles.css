@@ -56,4 +56,5 @@ p{
 .card__descricao{
     grid-area: descricao;
     margin: 0 6px;
+    margin: 0;
 }
