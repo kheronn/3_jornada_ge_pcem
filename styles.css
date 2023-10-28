@@ -55,7 +55,6 @@ p{
 
 .card__descricao{
     grid-area: descricao;
-    text-transform: uppercase;
     color: darkorange;
     margin: 0 6px;
     margin: 0;
@@ -64,4 +63,5 @@ p{
 .card__descricao>p{
     margin: 0;
     padding: 0 8px;
+    
 }
