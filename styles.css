@@ -27,12 +27,17 @@ p{
 }
 .card__historia{
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagem descricao";
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 1fr 1fr; 
     gap: 1rem;
     padding: 12px 8px;
 }
 
 .card__titulo{
+    grid-area: titulo;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
@@ -40,6 +45,13 @@ p{
 
 
 .card__imagem{
-    width: 400px;
+    grid-area: imagem;
+    height: 100%;
     border-radius: 20px;
+    padding: 8px;
+    aspect-ratio: 1/1;
+}
+
+.card__descricao{
+    grid-area: descricao;
 }
