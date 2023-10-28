@@ -1,5 +1,9 @@
 
-
+html{
+   
+       cursor:url(/imagens/ghost.png), auto;
+      
+}
 body {
     font-family: 'Roboto';
     display: flex;
