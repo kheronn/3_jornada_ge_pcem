@@ -24,6 +24,7 @@ h2{
 p{
     text-align: justify;
     color: white;
+    font-weight: 100;
 }
 .card__historia{
     display: grid;
