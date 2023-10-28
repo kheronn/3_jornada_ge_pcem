@@ -44,7 +44,7 @@ p {
     grid-template-rows: auto auto;
     grid-template-columns: auto 1fr;
     gap: 0.5rem;
-    
+    padding-top: .8rem;
 }
 
 .card__titulo {
