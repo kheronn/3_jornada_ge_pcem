@@ -21,20 +21,21 @@ h2{
     color:#F99417
 }
 
-.texto{
+p{
     text-align: justify;
     color: white;
 }
 .card__historia{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
     padding: 12px 8px;
 }
 
 .card__titulo{
     font-size: 24px;
     font-weight: 700;
+    text-align: center;
 }
 
 
