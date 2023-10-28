@@ -30,9 +30,9 @@ p{
     grid-template-areas: 
     "titulo titulo"
     "imagem descricao";
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr; 
-    gap: 1rem;
+    gap: 0.8rem;
     padding: 6px 8px;
 }
 
