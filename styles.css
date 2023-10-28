@@ -5,7 +5,7 @@ body {
     flex-wrap: wrap;
     padding: 2rem;
     background: #363062;
-    cursor:url(/imagens/ghost.png), auto;
+    cursor:url('/imagens/ghost.png'), auto;
 }   
 
 h1 {
