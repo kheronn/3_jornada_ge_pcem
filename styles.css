@@ -50,6 +50,7 @@ p {
 .card__titulo {
     grid-area: titulo;
     border: 2px solid #4D4C7D;
+    border-radius: 10px;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
