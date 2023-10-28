@@ -8,15 +8,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-    
+
 }
 
 .intro {
 
- border: 2px solid #4D4C7D;
- color: #363062;
- border-radius: 10px;
- padding: 1rem;
+    border: 2px solid #4D4C7D;
+    color: #363062;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 h1 {
@@ -43,7 +43,7 @@ p {
         "titulo titulo"
         "imagem descricao";
     grid-template-rows: auto auto;
-    grid-template-columns: minmax(auto, 1fr) 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0.8rem;
     padding: 6px 8px;
 }
