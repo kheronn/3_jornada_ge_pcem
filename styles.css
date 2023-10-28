@@ -12,7 +12,6 @@ body {
 }
 
 .intro {
-
     border: 2px solid #4D4C7D;
     color: #363062;
     border-radius: 10px;
@@ -50,6 +49,7 @@ p {
 
 .card__titulo {
     grid-area: titulo;
+    border: 2px solid #4D4C7D;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
