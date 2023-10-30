@@ -36,30 +36,30 @@ p {
 }
 
 .card__historia {
-    display: grid;
-    grid-template-areas:
-        "titulo titulo"
-        "imagem descricao";
-    grid-template-rows: auto auto;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;   
     gap: 0.5rem;
     padding-top: .8rem;
 }
 
 .card__titulo {
-    grid-area: titulo;
     border: 2px solid #4D4C7D;
     border-radius: 10px;
     font-size: 24px;
     font-weight: 700;
-    text-align: center;
+    text-align: right;
+    padding-right: 8px;
+    flex-grow: 1;
+    width: 100%;
 }
 
 
 .card__imagem {
-    grid-area: imagem;
     display: flex;
     justify-content: center;
+    align-self: center;
+    flex-grow: 1;
    
 }
 
@@ -67,16 +67,17 @@ p {
     width: 100%;
     border-radius: 20px;
     padding: 8px;
+    align-self: center;
     max-width: 400px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
 .card__descricao {
-    grid-area: descricao;
     color: darkorange;
     margin: 0 6px;
     margin: 0;
+    max-width: 600px;
 }
 
 .card__descricao>p {
