@@ -39,7 +39,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 100%;   
-    gap: 0.5rem;
     padding-top: .8rem;
 }
 
@@ -52,8 +51,16 @@ p {
     padding-right: 8px;
     flex-grow: 1;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
+.card__titulo-imagem{
+    width: 80px;
+    height: 80px;
+}
 
 .card__imagem {
     display: flex;
@@ -83,6 +90,7 @@ p {
 .card__descricao>p {
     margin: 0;
     padding: 0 8px;
+    line-height: 2.2rem;
 
 }
 
