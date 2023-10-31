@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -22,8 +22,10 @@
         <section class="intro">
             <p class="texto">
                 No interior do Paraná, município de <b>Wenceslau Braz</b>, há lugares de histórias mal-assombradas.
-                Tudo começou na fundação da cidade, quando um padre rogou uma maldição para o futuro da cidade. Outro relato é quando os
-                primeiros colonos chegaram à região que se tornaria Wenceslau Braz. Muitos deles foram enterrados em um cemitério
+                Tudo começou na fundação da cidade, quando um padre rogou uma maldição para o futuro da cidade. Outro
+                relato é quando os
+                primeiros colonos chegaram à região que se tornaria Wenceslau Braz. Muitos deles foram enterrados em um
+                cemitério
                 especialmente dedicado aos pioneiros que ajudaram a estabelecer a cidade. O Cemitério dos Pioneiros,
                 como ficou conhecido, é um local de respeito e honra aos primeiros habitantes da cidade.
                 <br>
@@ -34,23 +36,25 @@
 
             <p class="texto">
                 Nessa página vamos reunir algumas das principais histórias, como o casarão dos Maluf, Quadra da Vila
-                Verde e praça do centro.O objetivo é além de catalogar, realizar o registro conto de lendas urbanas e histórias
-                de lugares mal-assombrados podem adicionar um toque de mistério e folclore à cultura de uma região, enriquecendo
+                Verde e praça do centro.O objetivo é além de catalogar, realizar o registro conto de lendas urbanas e
+                histórias
+                de lugares mal-assombrados podem adicionar um toque de mistério e folclore à cultura de uma região,
+                enriquecendo
                 sua herança local.
             </p>
         </section>
 
         <!-- Casarão -->
         <section class="card__historia">
-            <div class="card__titulo">
+            <div class="card__titulo" data-aos="fade-up">
                 <img class="card__titulo-imagem" src="imagens/casa-assombrada.png" alt="">
                 <h2>Casarão</h2>
             </div>
-            <div class="card__imagem">
+            <div class="card__imagem " data-aos="fade-up">
                 <img src="./imagens/casarao.jpg" alt="Casarão">
             </div>
 
-            <div class="card__descricao">
+            <div class="card__descricao" data-aos="fade-down">
                 <p>
                     Havia um casarão antigo situado no topo de uma colina, cercado por uma floresta densa. Este casarão,
                     conhecido como "Vila das Sombras", tinha uma história que fazia os moradores da cidade mais próxima
@@ -72,7 +76,7 @@
             </div>
         </section>
         <!-- Quadra -->
-        <section class="card__historia">
+        <section class="card__historia" data-aos="fade-left">
             <div class="card__titulo">
                 <img class="card__titulo-imagem" src="imagens/fantasia-de-fantasma.png" alt="">
                 <h2>Quadra Vila Verde</h2>
@@ -108,7 +112,10 @@
         </section>
     </main>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
