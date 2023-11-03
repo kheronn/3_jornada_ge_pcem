@@ -53,6 +53,7 @@ p {
 
 .card__titulo {
     border: 2px solid #4D4C7D;
+    background-color: #F99417;
     border-radius: 10px;
     font-size: 24px;
     font-weight: 700;
