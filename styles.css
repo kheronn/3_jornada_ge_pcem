@@ -21,6 +21,7 @@ body {
     border-radius: 10px;
     padding: .8rem;
     height: auto;
+    width: 100vw;
     align-self: center;
     align-self: center;
 }
