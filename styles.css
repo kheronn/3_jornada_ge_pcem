@@ -1,10 +1,16 @@
+:root{
+    --cor-primaria:#F99417;
+    --cor-secundaria:#363062;
+    --branca:#FFF;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Roboto';
-    background: #363062;
+    background: var(--cor-secundaria);
     cursor: url(imagens/ghost.png), url('/imagens/ghost2.png'), auto;
 }
 
@@ -31,7 +37,19 @@ body {
     height: 48px;
 }
 
-.menu__navegacao{}
+.menu__navegacao{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.menu__item {
+    padding: 0 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--cor-secundaria);
+    font-weight: 500;
+}
 
 .container {
     display: flex;
@@ -60,14 +78,14 @@ h2 {
 }
 
 #titulo_principal {
-    color: #F99417;
+    color: var(--cor-primaria);
     font-size: 16px;
     font-weight: 700;
 }
 
 p {
     text-align: justify;
-    color: white;
+    color: var(--branca);
     font-weight: 100;
 }
 
@@ -79,8 +97,8 @@ p {
 }
 
 .card__titulo {
-    border: 2px solid #4D4C7D;
-    background-color: #F99417;
+    border: 2px solid var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     border-radius: 10px;
     font-size: 24px;
     font-weight: 700;
@@ -118,7 +136,7 @@ p {
 }
 
 .card__descricao {
-    color: darkorange;
+    color: var(--cor-primaria);
     margin: 0 6px;
     margin: 0;
     max-width: 600px;
