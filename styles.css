@@ -60,7 +60,9 @@ h2 {
 }
 
 #titulo_principal {
-    color: #F99417
+    color: #F99417;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 p {
