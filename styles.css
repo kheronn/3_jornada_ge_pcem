@@ -21,7 +21,14 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.menu__logo{}
+.menu__logo{
+    display: flex;
+    gap: 12px;
+}
+
+.menu__logo img{
+    width: 48px;
+}
 
 .menu__navegacao{}
 
