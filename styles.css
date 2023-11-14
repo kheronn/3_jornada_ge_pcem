@@ -46,13 +46,17 @@ body {
     gap: 0.8rem;
 }
 
-
 .menu__item {
     padding: 0 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--cor-secundaria);
     font-weight: 500;
+}
+
+.menu__item:hover{
+    background-color: var(--cor-primaria);
+    color: var(--branca);
 }
 
 .container {
