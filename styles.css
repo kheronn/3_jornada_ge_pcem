@@ -8,6 +8,23 @@ body {
     cursor: url(imagens/ghost.png), url('/imagens/ghost2.png'), auto;
 }
 
+.menu{
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding-left: 48px;
+    height: 96px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.menu__logo{}
+
+.menu__navegacao{}
+
 .container {
     display: flex;
     flex-wrap: wrap;
