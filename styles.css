@@ -38,9 +38,8 @@ body {
 }
 
 
-.menu__navegacao ul{
+.menu__navegacao{
     list-style-type: none;
-    display: flex;
     display: flex;
     justify-content: space-between;
     gap: 0.8rem;
