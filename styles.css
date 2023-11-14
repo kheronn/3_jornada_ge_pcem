@@ -37,14 +37,13 @@ body {
     height: 48px;
 }
 
-.menu__navegacao{
-    display: flex;
-    justify-content: space-between;
-    gap: 0.8rem;
-}
 
 .menu__navegacao ul{
     list-style-type: none;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
 }
 
 
