@@ -68,7 +68,6 @@ body {
 .intro {
     border: 2px solid #4D4C7D;
     color: #363062;
-   
     border-radius: 10px;
     padding: .8rem;
     height: 80vh;
@@ -79,7 +78,7 @@ body {
 }
 
 .texto{
-    align-self: stretch;
+    align-self: center;
     font-size: 32px;
 }
 
