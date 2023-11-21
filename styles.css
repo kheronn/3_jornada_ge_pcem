@@ -75,6 +75,13 @@ body {
     width: 100%;
     align-self: center;
     align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    width: 650px;
+    border-radius: 15px;
 }
 
 h1 {
