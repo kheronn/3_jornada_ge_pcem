@@ -32,9 +32,8 @@ body {
     gap: 12px;
 }
 
-.menu__logo img{
-    width: 48px;
-    height: 48px;
+.menu__logo .fantasma{
+    font-size: 48px;
 }
 
 
