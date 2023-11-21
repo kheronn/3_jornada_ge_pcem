@@ -81,11 +81,13 @@ body {
     align-self: center;
     font-size: 32px;
     text-align: left;
+    flex: 1 0 400px;
 }
 
 .hero{
     width: 550px;
     border-radius: 15px;
+    flex: 1 0 400px;
 }
 
 h1 {
