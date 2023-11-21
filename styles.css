@@ -79,7 +79,7 @@ body {
 }
 
 .texto{
-    align-self: center;
+    align-self: stretch;
 }
 
 .hero{
