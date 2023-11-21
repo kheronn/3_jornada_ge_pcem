@@ -73,8 +73,7 @@ body {
     padding: .8rem;
     height: 80vh;
     width: 100%;
-    align-self: center;
-    align-self: center;
+    
     display: flex;
     justify-content: center;
 }
