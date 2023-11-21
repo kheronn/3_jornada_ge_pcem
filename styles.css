@@ -73,9 +73,9 @@ body {
     padding: .8rem;
     height: 80vh;
     width: 100%;
-    
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
 
 .hero{
