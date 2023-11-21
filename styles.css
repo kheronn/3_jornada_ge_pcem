@@ -78,6 +78,10 @@ body {
     gap: 24px;
 }
 
+.texto{
+    align-self: center;
+}
+
 .hero{
     width: 450px;
     border-radius: 15px;
